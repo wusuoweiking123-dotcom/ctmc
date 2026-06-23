@@ -1,0 +1,442 @@
+2026-03-17 20:34:37.773 | INFO | --- CTMC Terminal Report System | Model: CEV ---
+2026-03-17 20:34:37.784 | INFO | Successfully retrieved futures data: input/Futures_au2412.csv
+2026-03-17 20:34:37.789 | INFO | Successfully retrieved options data: input/Futures_put_options_au2412.csv
+2026-03-17 20:34:37.791 | INFO | Filter the options data: 758 -> 659 records
+2026-03-17 20:34:37.792 | INFO | Calculating for Date: 20240603...
+2026-03-17 20:34:38.096 | INFO | Calibration starting for 20240603 (2 options)
+2026-03-17 20:34:38.097 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:38.406 | INFO | AM style put option pricing completed using cev model: 1.259453
+2026-03-17 20:34:38.406 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:38.964 | INFO | AM style put option pricing completed using cev model: 10.011184
+2026-03-17 20:34:38.964 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:39.303 | INFO | AM style put option pricing completed using cev model: 1.259453
+2026-03-17 20:34:39.304 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:39.860 | INFO | AM style put option pricing completed using cev model: 10.011184
+2026-03-17 20:34:39.861 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:40.415 | INFO | AM style put option pricing completed using cev model: 1.259453
+2026-03-17 20:34:40.416 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:41.018 | INFO | AM style put option pricing completed using cev model: 10.011184
+2026-03-17 20:34:41.020 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:41.409 | INFO | AM style put option pricing completed using cev model: 0.000000
+2026-03-17 20:34:41.409 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:41.721 | INFO | AM style put option pricing completed using cev model: 0.000000
+2026-03-17 20:34:41.722 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:42.292 | INFO | AM style put option pricing completed using cev model: 0.000000
+2026-03-17 20:34:42.292 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:42.613 | INFO | AM style put option pricing completed using cev model: 0.000000
+2026-03-17 20:34:42.619 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:43.209 | INFO | AM style put option pricing completed using cev model: 0.000000
+2026-03-17 20:34:43.210 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:43.550 | INFO | AM style put option pricing completed using cev model: 0.000000
+2026-03-17 20:34:43.550 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:44.130 | INFO | AM style put option pricing completed using cev model: 0.345596
+2026-03-17 20:34:44.131 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:44.483 | INFO | AM style put option pricing completed using cev model: 6.003610
+2026-03-17 20:34:44.484 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:44.852 | INFO | AM style put option pricing completed using cev model: 0.345596
+2026-03-17 20:34:44.853 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:45.462 | INFO | AM style put option pricing completed using cev model: 6.003611
+2026-03-17 20:34:45.463 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:46.061 | INFO | AM style put option pricing completed using cev model: 0.345596
+2026-03-17 20:34:46.061 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:46.627 | INFO | AM style put option pricing completed using cev model: 6.003610
+2026-03-17 20:34:46.629 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:47.217 | INFO | AM style put option pricing completed using cev model: 1.003974
+2026-03-17 20:34:47.218 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:47.788 | INFO | AM style put option pricing completed using cev model: 9.108550
+2026-03-17 20:34:47.788 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:48.165 | INFO | AM style put option pricing completed using cev model: 1.003975
+2026-03-17 20:34:48.166 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:48.734 | INFO | AM style put option pricing completed using cev model: 9.108551
+2026-03-17 20:34:48.735 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:49.032 | INFO | AM style put option pricing completed using cev model: 1.003974
+2026-03-17 20:34:49.033 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:49.597 | INFO | AM style put option pricing completed using cev model: 9.108550
+2026-03-17 20:34:49.598 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:50.212 | INFO | AM style put option pricing completed using cev model: 0.952074
+2026-03-17 20:34:50.213 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:50.514 | INFO | AM style put option pricing completed using cev model: 8.912281
+2026-03-17 20:34:50.514 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:51.101 | INFO | AM style put option pricing completed using cev model: 0.952075
+2026-03-17 20:34:51.101 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:51.404 | INFO | AM style put option pricing completed using cev model: 8.912281
+2026-03-17 20:34:51.405 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:52.011 | INFO | AM style put option pricing completed using cev model: 0.952074
+2026-03-17 20:34:52.012 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:52.464 | INFO | AM style put option pricing completed using cev model: 8.912281
+2026-03-17 20:34:52.465 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:52.749 | INFO | AM style put option pricing completed using cev model: 0.969266
+2026-03-17 20:34:52.750 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:53.348 | INFO | AM style put option pricing completed using cev model: 8.977816
+2026-03-17 20:34:53.349 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:54.052 | INFO | AM style put option pricing completed using cev model: 0.969266
+2026-03-17 20:34:54.052 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:54.363 | INFO | AM style put option pricing completed using cev model: 8.977817
+2026-03-17 20:34:54.363 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:54.927 | INFO | AM style put option pricing completed using cev model: 0.969266
+2026-03-17 20:34:54.928 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:55.274 | INFO | AM style put option pricing completed using cev model: 8.977816
+2026-03-17 20:34:55.274 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:55.614 | INFO | AM style put option pricing completed using cev model: 0.968571
+2026-03-17 20:34:55.638 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:56.195 | INFO | AM style put option pricing completed using cev model: 8.975140
+2026-03-17 20:34:56.196 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:56.544 | INFO | AM style put option pricing completed using cev model: 0.968571
+2026-03-17 20:34:56.544 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:57.120 | INFO | AM style put option pricing completed using cev model: 8.975141
+2026-03-17 20:34:57.121 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:57.765 | INFO | AM style put option pricing completed using cev model: 0.968571
+2026-03-17 20:34:57.765 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:58.179 | INFO | AM style put option pricing completed using cev model: 8.975140
+2026-03-17 20:34:58.179 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:58.772 | INFO | AM style put option pricing completed using cev model: 0.967341
+2026-03-17 20:34:58.773 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:34:59.393 | INFO | AM style put option pricing completed using cev model: 8.970306
+2026-03-17 20:34:59.393 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:34:59.975 | INFO | AM style put option pricing completed using cev model: 0.967341
+2026-03-17 20:34:59.975 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:00.589 | INFO | AM style put option pricing completed using cev model: 8.970306
+2026-03-17 20:35:00.590 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:01.243 | INFO | AM style put option pricing completed using cev model: 0.967341
+2026-03-17 20:35:01.244 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:02.135 | INFO | AM style put option pricing completed using cev model: 8.970306
+2026-03-17 20:35:02.137 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:02.659 | INFO | AM style put option pricing completed using cev model: 0.965477
+2026-03-17 20:35:02.659 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:02.980 | INFO | AM style put option pricing completed using cev model: 8.962727
+2026-03-17 20:35:02.981 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:03.543 | INFO | AM style put option pricing completed using cev model: 0.965477
+2026-03-17 20:35:03.543 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:04.134 | INFO | AM style put option pricing completed using cev model: 8.962728
+2026-03-17 20:35:04.135 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:04.748 | INFO | AM style put option pricing completed using cev model: 0.965477
+2026-03-17 20:35:04.748 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:05.143 | INFO | AM style put option pricing completed using cev model: 8.962727
+2026-03-17 20:35:05.145 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:05.704 | INFO | AM style put option pricing completed using cev model: 0.962419
+2026-03-17 20:35:05.704 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:06.297 | INFO | AM style put option pricing completed using cev model: 8.949606
+2026-03-17 20:35:06.298 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:06.844 | INFO | AM style put option pricing completed using cev model: 0.962420
+2026-03-17 20:35:06.845 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:07.619 | INFO | AM style put option pricing completed using cev model: 8.949607
+2026-03-17 20:35:07.619 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:08.359 | INFO | AM style put option pricing completed using cev model: 0.962419
+2026-03-17 20:35:08.359 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:08.987 | INFO | AM style put option pricing completed using cev model: 8.949606
+2026-03-17 20:35:08.988 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:09.313 | INFO | AM style put option pricing completed using cev model: 0.957595
+2026-03-17 20:35:09.313 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:09.898 | INFO | AM style put option pricing completed using cev model: 8.927112
+2026-03-17 20:35:09.898 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:10.483 | INFO | AM style put option pricing completed using cev model: 0.957596
+2026-03-17 20:35:10.483 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:10.787 | INFO | AM style put option pricing completed using cev model: 8.927112
+2026-03-17 20:35:10.787 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:11.141 | INFO | AM style put option pricing completed using cev model: 0.957595
+2026-03-17 20:35:11.142 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:11.730 | INFO | AM style put option pricing completed using cev model: 8.927112
+2026-03-17 20:35:11.730 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:12.308 | INFO | AM style put option pricing completed using cev model: 0.949999
+2026-03-17 20:35:12.310 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:12.616 | INFO | AM style put option pricing completed using cev model: 8.886911
+2026-03-17 20:35:12.616 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:12.923 | INFO | AM style put option pricing completed using cev model: 0.949999
+2026-03-17 20:35:12.923 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:13.254 | INFO | AM style put option pricing completed using cev model: 8.886912
+2026-03-17 20:35:13.255 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:13.827 | INFO | AM style put option pricing completed using cev model: 0.949999
+2026-03-17 20:35:13.827 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:14.432 | INFO | AM style put option pricing completed using cev model: 8.886911
+2026-03-17 20:35:14.433 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:15.032 | INFO | AM style put option pricing completed using cev model: 0.938439
+2026-03-17 20:35:15.033 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:15.643 | INFO | AM style put option pricing completed using cev model: 8.813050
+2026-03-17 20:35:15.644 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:15.960 | INFO | AM style put option pricing completed using cev model: 0.938439
+2026-03-17 20:35:15.960 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:16.533 | INFO | AM style put option pricing completed using cev model: 8.813051
+2026-03-17 20:35:16.534 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:16.844 | INFO | AM style put option pricing completed using cev model: 0.938439
+2026-03-17 20:35:16.844 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:17.447 | INFO | AM style put option pricing completed using cev model: 8.813050
+2026-03-17 20:35:17.449 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:17.764 | INFO | AM style put option pricing completed using cev model: 0.921996
+2026-03-17 20:35:17.765 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:18.326 | INFO | AM style put option pricing completed using cev model: 8.674610
+2026-03-17 20:35:18.326 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:18.625 | INFO | AM style put option pricing completed using cev model: 0.921996
+2026-03-17 20:35:18.625 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:19.184 | INFO | AM style put option pricing completed using cev model: 8.674611
+2026-03-17 20:35:19.188 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:19.729 | INFO | AM style put option pricing completed using cev model: 0.921996
+2026-03-17 20:35:19.729 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:20.280 | INFO | AM style put option pricing completed using cev model: 8.674610
+2026-03-17 20:35:20.280 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:20.888 | INFO | AM style put option pricing completed using cev model: 0.902581
+2026-03-17 20:35:20.889 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:21.453 | INFO | AM style put option pricing completed using cev model: 8.427794
+2026-03-17 20:35:21.453 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:22.024 | INFO | AM style put option pricing completed using cev model: 0.902581
+2026-03-17 20:35:22.024 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:22.580 | INFO | AM style put option pricing completed using cev model: 8.427795
+2026-03-17 20:35:22.580 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:23.155 | INFO | AM style put option pricing completed using cev model: 0.902581
+2026-03-17 20:35:23.155 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:23.739 | INFO | AM style put option pricing completed using cev model: 8.427794
+2026-03-17 20:35:23.739 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:24.324 | INFO | AM style put option pricing completed using cev model: 0.887608
+2026-03-17 20:35:24.324 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:24.926 | INFO | AM style put option pricing completed using cev model: 8.057024
+2026-03-17 20:35:24.926 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:25.535 | INFO | AM style put option pricing completed using cev model: 0.887609
+2026-03-17 20:35:25.536 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:26.039 | INFO | AM style put option pricing completed using cev model: 8.057024
+2026-03-17 20:35:26.040 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:26.609 | INFO | AM style put option pricing completed using cev model: 0.887608
+2026-03-17 20:35:26.609 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:27.161 | INFO | AM style put option pricing completed using cev model: 8.057024
+2026-03-17 20:35:27.162 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:27.749 | INFO | AM style put option pricing completed using cev model: 0.891745
+2026-03-17 20:35:27.749 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:28.057 | INFO | AM style put option pricing completed using cev model: 7.749786
+2026-03-17 20:35:28.057 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:28.393 | INFO | AM style put option pricing completed using cev model: 0.891745
+2026-03-17 20:35:28.393 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:28.688 | INFO | AM style put option pricing completed using cev model: 7.749786
+2026-03-17 20:35:28.688 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:29.260 | INFO | AM style put option pricing completed using cev model: 0.891745
+2026-03-17 20:35:29.260 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:29.557 | INFO | AM style put option pricing completed using cev model: 7.749786
+2026-03-17 20:35:29.558 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:30.130 | INFO | AM style put option pricing completed using cev model: 0.928064
+2026-03-17 20:35:30.130 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:30.672 | INFO | AM style put option pricing completed using cev model: 7.608079
+2026-03-17 20:35:30.673 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:31.252 | INFO | AM style put option pricing completed using cev model: 0.928064
+2026-03-17 20:35:31.252 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:31.802 | INFO | AM style put option pricing completed using cev model: 7.608079
+2026-03-17 20:35:31.802 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:32.421 | INFO | AM style put option pricing completed using cev model: 0.928064
+2026-03-17 20:35:32.422 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:32.771 | INFO | AM style put option pricing completed using cev model: 7.608079
+2026-03-17 20:35:32.771 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:33.360 | INFO | AM style put option pricing completed using cev model: 0.969772
+2026-03-17 20:35:33.360 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:33.941 | INFO | AM style put option pricing completed using cev model: 7.552486
+2026-03-17 20:35:33.942 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:34.589 | INFO | AM style put option pricing completed using cev model: 0.969773
+2026-03-17 20:35:34.589 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:35.153 | INFO | AM style put option pricing completed using cev model: 7.552486
+2026-03-17 20:35:35.154 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:35.674 | INFO | AM style put option pricing completed using cev model: 0.969772
+2026-03-17 20:35:35.674 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:36.005 | INFO | AM style put option pricing completed using cev model: 7.552486
+2026-03-17 20:35:36.006 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:36.336 | INFO | AM style put option pricing completed using cev model: 0.990826
+2026-03-17 20:35:36.336 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:36.893 | INFO | AM style put option pricing completed using cev model: 7.425013
+2026-03-17 20:35:36.893 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:37.503 | INFO | AM style put option pricing completed using cev model: 0.990826
+2026-03-17 20:35:37.503 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:38.092 | INFO | AM style put option pricing completed using cev model: 7.425013
+2026-03-17 20:35:38.092 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:38.387 | INFO | AM style put option pricing completed using cev model: 0.990826
+2026-03-17 20:35:38.387 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:38.999 | INFO | AM style put option pricing completed using cev model: 7.425013
+2026-03-17 20:35:38.999 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:39.549 | INFO | AM style put option pricing completed using cev model: 1.008932
+2026-03-17 20:35:39.549 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:40.180 | INFO | AM style put option pricing completed using cev model: 7.395155
+2026-03-17 20:35:40.180 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:40.748 | INFO | AM style put option pricing completed using cev model: 1.008932
+2026-03-17 20:35:40.749 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:41.040 | INFO | AM style put option pricing completed using cev model: 7.395155
+2026-03-17 20:35:41.041 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:41.625 | INFO | AM style put option pricing completed using cev model: 1.008932
+2026-03-17 20:35:41.625 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:42.205 | INFO | AM style put option pricing completed using cev model: 7.395155
+2026-03-17 20:35:42.205 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:42.773 | INFO | AM style put option pricing completed using cev model: 1.017131
+2026-03-17 20:35:42.773 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:43.120 | INFO | AM style put option pricing completed using cev model: 7.354077
+2026-03-17 20:35:43.121 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:43.688 | INFO | AM style put option pricing completed using cev model: 1.017131
+2026-03-17 20:35:43.689 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:44.165 | INFO | AM style put option pricing completed using cev model: 7.354077
+2026-03-17 20:35:44.166 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:44.522 | INFO | AM style put option pricing completed using cev model: 1.017131
+2026-03-17 20:35:44.523 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:44.818 | INFO | AM style put option pricing completed using cev model: 7.354077
+2026-03-17 20:35:44.819 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:45.129 | INFO | AM style put option pricing completed using cev model: 1.039077
+2026-03-17 20:35:45.129 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:45.758 | INFO | AM style put option pricing completed using cev model: 7.423442
+2026-03-17 20:35:45.759 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:46.321 | INFO | AM style put option pricing completed using cev model: 1.039077
+2026-03-17 20:35:46.321 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:46.662 | INFO | AM style put option pricing completed using cev model: 7.423442
+2026-03-17 20:35:46.662 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:47.251 | INFO | AM style put option pricing completed using cev model: 1.039077
+2026-03-17 20:35:47.251 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:47.614 | INFO | AM style put option pricing completed using cev model: 7.423442
+2026-03-17 20:35:47.615 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:47.939 | INFO | AM style put option pricing completed using cev model: 1.015749
+2026-03-17 20:35:47.939 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:48.494 | INFO | AM style put option pricing completed using cev model: 7.294637
+2026-03-17 20:35:48.494 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:48.816 | INFO | AM style put option pricing completed using cev model: 1.015749
+2026-03-17 20:35:48.817 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:49.367 | INFO | AM style put option pricing completed using cev model: 7.294637
+2026-03-17 20:35:49.367 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:49.933 | INFO | AM style put option pricing completed using cev model: 1.015749
+2026-03-17 20:35:49.933 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:50.497 | INFO | AM style put option pricing completed using cev model: 7.294637
+2026-03-17 20:35:50.497 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:50.839 | INFO | AM style put option pricing completed using cev model: 1.031146
+2026-03-17 20:35:50.839 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:51.424 | INFO | AM style put option pricing completed using cev model: 7.369343
+2026-03-17 20:35:51.424 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:52.004 | INFO | AM style put option pricing completed using cev model: 1.031146
+2026-03-17 20:35:52.005 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:52.565 | INFO | AM style put option pricing completed using cev model: 7.369343
+2026-03-17 20:35:52.565 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:53.117 | INFO | AM style put option pricing completed using cev model: 1.031146
+2026-03-17 20:35:53.117 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:53.706 | INFO | AM style put option pricing completed using cev model: 7.369343
+2026-03-17 20:35:53.707 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:54.284 | INFO | AM style put option pricing completed using cev model: 1.029033
+2026-03-17 20:35:54.284 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:54.587 | INFO | AM style put option pricing completed using cev model: 7.355202
+2026-03-17 20:35:54.588 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:54.913 | INFO | AM style put option pricing completed using cev model: 1.029033
+2026-03-17 20:35:54.914 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:55.496 | INFO | AM style put option pricing completed using cev model: 7.355202
+2026-03-17 20:35:55.496 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:56.087 | INFO | AM style put option pricing completed using cev model: 1.029033
+2026-03-17 20:35:56.087 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:56.667 | INFO | AM style put option pricing completed using cev model: 7.355202
+2026-03-17 20:35:56.668 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:57.257 | INFO | AM style put option pricing completed using cev model: 1.031530
+2026-03-17 20:35:57.258 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:57.643 | INFO | AM style put option pricing completed using cev model: 7.366489
+2026-03-17 20:35:57.644 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:58.301 | INFO | AM style put option pricing completed using cev model: 1.031530
+2026-03-17 20:35:58.302 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:58.882 | INFO | AM style put option pricing completed using cev model: 7.366489
+2026-03-17 20:35:58.883 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:59.243 | INFO | AM style put option pricing completed using cev model: 1.031530
+2026-03-17 20:35:59.243 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:35:59.534 | INFO | AM style put option pricing completed using cev model: 7.366489
+2026-03-17 20:35:59.534 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:35:59.926 | INFO | AM style put option pricing completed using cev model: 1.032902
+2026-03-17 20:35:59.927 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:00.563 | INFO | AM style put option pricing completed using cev model: 7.372722
+2026-03-17 20:36:00.564 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:36:01.108 | INFO | AM style put option pricing completed using cev model: 1.032903
+2026-03-17 20:36:01.108 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:01.679 | INFO | AM style put option pricing completed using cev model: 7.372722
+2026-03-17 20:36:01.679 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:36:02.254 | INFO | AM style put option pricing completed using cev model: 1.032902
+2026-03-17 20:36:02.254 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:02.837 | INFO | AM style put option pricing completed using cev model: 7.372722
+2026-03-17 20:36:02.838 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:36:03.465 | INFO | AM style put option pricing completed using cev model: 1.032972
+2026-03-17 20:36:03.465 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:04.022 | INFO | AM style put option pricing completed using cev model: 7.373041
+2026-03-17 20:36:04.023 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:36:04.624 | INFO | AM style put option pricing completed using cev model: 1.032972
+2026-03-17 20:36:04.625 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:05.178 | INFO | AM style put option pricing completed using cev model: 7.373042
+2026-03-17 20:36:05.178 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:36:05.721 | INFO | AM style put option pricing completed using cev model: 1.032972
+2026-03-17 20:36:05.721 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:06.398 | INFO | AM style put option pricing completed using cev model: 7.373041
+2026-03-17 20:36:06.398 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:36:06.987 | INFO | AM style put option pricing completed using cev model: 1.032976
+2026-03-17 20:36:06.987 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:07.367 | INFO | AM style put option pricing completed using cev model: 7.373059
+2026-03-17 20:36:07.367 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:36:07.708 | INFO | AM style put option pricing completed using cev model: 1.032976
+2026-03-17 20:36:07.708 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:08.293 | INFO | AM style put option pricing completed using cev model: 7.373059
+2026-03-17 20:36:08.293 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:36:08.883 | INFO | AM style put option pricing completed using cev model: 1.032976
+2026-03-17 20:36:08.883 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:09.199 | INFO | AM style put option pricing completed using cev model: 7.373059
+2026-03-17 20:36:09.201 | INFO | State space range for cev: [454.72, 670.55]
+2026-03-17 20:36:12.939 | INFO | AM style put option pricing completed using cev model: 1.452997
+2026-03-17 20:36:12.940 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:16.250 | INFO | AM style put option pricing completed using cev model: 8.291850
+2026-03-17 20:36:16.256 | INFO | 
+[ Pricing Report for 20240603 ]
+      Date     K    TAU  Mkt_Price  Model_Price  RAE_%
+20240603.0 464.0 0.4795       1.08       1.4530  34.54
+20240603.0 520.0 0.4795       6.88       8.2918  20.52
+2026-03-17 20:36:16.256 | INFO | Optimal Parameters: {'sigma': 0.2722, 'beta': -6.2749}
+
+2026-03-17 20:36:16.256 | INFO | Calculating for Date: 20240606...
+2026-03-17 20:36:16.257 | INFO | Calibration starting for 20240606 (1 options)
+2026-03-17 20:36:16.257 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:16.659 | INFO | AM style put option pricing completed using cev model: 2.940169
+2026-03-17 20:36:16.660 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:17.224 | INFO | AM style put option pricing completed using cev model: 2.940169
+2026-03-17 20:36:17.288 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:17.846 | INFO | AM style put option pricing completed using cev model: 2.940169
+2026-03-17 20:36:17.846 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:18.454 | INFO | AM style put option pricing completed using cev model: 8.756601
+2026-03-17 20:36:18.454 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:19.070 | INFO | AM style put option pricing completed using cev model: 8.756601
+2026-03-17 20:36:19.070 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:19.727 | INFO | AM style put option pricing completed using cev model: 8.756601
+2026-03-17 20:36:19.729 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:20.303 | INFO | AM style put option pricing completed using cev model: 4.488358
+2026-03-17 20:36:20.304 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:20.609 | INFO | AM style put option pricing completed using cev model: 4.488358
+2026-03-17 20:36:20.609 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:20.935 | INFO | AM style put option pricing completed using cev model: 4.488358
+2026-03-17 20:36:20.939 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:21.574 | INFO | AM style put option pricing completed using cev model: 3.238588
+2026-03-17 20:36:21.575 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:21.923 | INFO | AM style put option pricing completed using cev model: 3.238588
+2026-03-17 20:36:21.924 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:22.519 | INFO | AM style put option pricing completed using cev model: 3.238588
+2026-03-17 20:36:22.519 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:23.139 | INFO | AM style put option pricing completed using cev model: 3.191123
+2026-03-17 20:36:23.139 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:23.466 | INFO | AM style put option pricing completed using cev model: 3.191124
+2026-03-17 20:36:23.467 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:24.081 | INFO | AM style put option pricing completed using cev model: 3.191123
+2026-03-17 20:36:24.081 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:24.695 | INFO | AM style put option pricing completed using cev model: 3.179435
+2026-03-17 20:36:24.696 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:25.023 | INFO | AM style put option pricing completed using cev model: 3.179436
+2026-03-17 20:36:25.024 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:25.605 | INFO | AM style put option pricing completed using cev model: 3.179435
+2026-03-17 20:36:25.606 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:25.922 | INFO | AM style put option pricing completed using cev model: 3.180005
+2026-03-17 20:36:25.923 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:26.476 | INFO | AM style put option pricing completed using cev model: 3.180006
+2026-03-17 20:36:26.477 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:27.063 | INFO | AM style put option pricing completed using cev model: 3.180005
+2026-03-17 20:36:27.064 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:27.419 | INFO | AM style put option pricing completed using cev model: 3.180000
+2026-03-17 20:36:27.420 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:27.764 | INFO | AM style put option pricing completed using cev model: 3.180000
+2026-03-17 20:36:27.764 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:28.333 | INFO | AM style put option pricing completed using cev model: 3.180000
+2026-03-17 20:36:28.337 | INFO | State space range for cev: [493.18, 670.55]
+2026-03-17 20:36:31.496 | INFO | AM style put option pricing completed using cev model: 3.739553
+2026-03-17 20:36:31.498 | INFO | 
+[ Pricing Report for 20240606 ]
+      Date     K    TAU  Mkt_Price  Model_Price  RAE_%
+20240606.0 504.0 0.4712       3.18       3.7396   17.6
+2026-03-17 20:36:31.498 | INFO | Optimal Parameters: {'sigma': 0.2113, 'beta': -0.4997}
+
+2026-03-17 20:36:31.499 | INFO | 
+==================================================
+FINAL BATCH SUMMARY (CEV)
+Total Options: 3
+Global Mean RAE: 24.22%
+==================================================
+2026-03-17 20:36:31.501 | INFO | Results saved to: result/batch_pricing_report_cev_20260317_203631.csv
