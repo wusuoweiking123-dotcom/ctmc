@@ -1,0 +1,858 @@
+2026-05-13 13:07:34.514 | INFO     | __main__:run_convergence_study:228 | ======================================================================
+2026-05-13 13:07:34.514 | INFO     | __main__:run_convergence_study:229 | Convergence Study: 2D-CTMC-SVJ
+2026-05-13 13:07:34.514 | INFO     | __main__:run_convergence_study:230 | Grid configs: 20x100, 30x150, 40x200, 60x300, 80x400
+2026-05-13 13:07:34.514 | INFO     | __main__:run_convergence_study:232 | Grid mode: standard
+2026-05-13 13:07:34.514 | INFO     | __main__:run_convergence_study:233 | Smooth payoff: False
+2026-05-13 13:07:34.514 | INFO     | __main__:run_convergence_study:236 | ======================================================================
+2026-05-13 13:07:34.514 | INFO     | __main__:run_convergence_study:245 | 
+--- Grid: 20x100, n_steps=200 ---
+2026-05-13 13:07:34.514 | DEBUG    | src.grid_construction:generate_sinh_grid:65 | Sinh grid: [0.0080, 0.1200], center=0.0400, alpha=0.5, spacing range=[0.005876, 0.005945]
+2026-05-13 13:07:34.514 | INFO     | src.grid_construction:build_variance_grid:112 | Layer 1 variance grid built: 20 points, range=[0.008000, 0.120000]
+2026-05-13 13:07:34.514 | DEBUG    | src.grid_construction:generate_sinh_grid:65 | Sinh grid: [3.6593, 5.7377], center=4.6985, alpha=1.0, spacing range=[0.018361, 0.026306]
+2026-05-13 13:07:34.514 | INFO     | src.grid_construction:build_price_grid:161 | Layer 2 price grid built: 100 points, range=[3.6593, 5.7377] (S range=[38.83, 310.36])
+2026-05-13 13:07:34.515 | DEBUG    | src.layer1_variance:construct_variance_generator:204 | Layer 1 generator: stencil=auto, 5pt interior: 0/16, fallbacks: 16
+2026-05-13 13:07:34.515 | INFO     | src.layer1_variance:construct_variance_generator:208 | Layer 1 generator Q^(m) built: shape=(20, 20), off-diag range=[10.804812, 158.073591]
+2026-05-13 13:07:34.515 | DEBUG    | src.layer1_variance:_validate_generator:347 | Layer 1 variance generator validated OK
+2026-05-13 13:07:34.515 | INFO     | src.layer1_variance:compute_v_generator_exp_moment:254 | V-generator exp moment: epsilon_v range=[-4.157785e-14, 2.220446e-14], |max|=4.157785e-14
+2026-05-13 13:07:34.515 | INFO     | src.layer2_price:construct_all_regime_generators:346 | Drift correction: 9/20 regimes corrected, epsilon_v range=[-4.157785e-14, 2.220446e-14]
+2026-05-13 13:07:34.517 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/96, fallbacks: 96
+2026-05-13 13:07:34.519 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/96, fallbacks: 96
+2026-05-13 13:07:34.521 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/96, fallbacks: 96
+2026-05-13 13:07:34.523 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.524 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/96, fallbacks: 96
+2026-05-13 13:07:34.527 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/96, fallbacks: 96
+2026-05-13 13:07:34.529 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/96, fallbacks: 96
+2026-05-13 13:07:34.531 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.532 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/96, fallbacks: 96
+2026-05-13 13:07:34.534 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.536 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/96, fallbacks: 96
+2026-05-13 13:07:34.538 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.539 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.541 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/96, fallbacks: 96
+2026-05-13 13:07:34.545 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.551 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/96, fallbacks: 96
+2026-05-13 13:07:34.556 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.558 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.560 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.564 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/96, fallbacks: 96
+2026-05-13 13:07:34.564 | INFO     | src.layer2_price:construct_all_regime_generators:367 | Layer 2 generators built: tensor (20, 100, 100)
+2026-05-13 13:07:34.576 | DEBUG    | src.jump_generator:construct_merton_jump_matrix:99 | Merton jump matrix built: shape=(100,100), off-diag range=[0.000000, 0.015580], max_exit_rate=0.093542
+2026-05-13 13:07:34.578 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.581 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.586 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.592 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.594 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.596 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.598 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.599 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.601 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.603 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.605 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.606 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.608 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.610 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.612 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.614 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.615 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.617 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.619 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.621 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/96, fallbacks: 96
+2026-05-13 13:07:34.622 | INFO     | src.jump_generator:construct_all_regime_generators_svj:303 | SVJ regime generators built: tensor (20, 100, 100), jump_type=merton, lambda=0.1, drift_correction=0.004400
+2026-05-13 13:07:34.624 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=85 T=0.2500 -> price=0.049457 (P1=0.945616, P2=0.934950)
+2026-05-13 13:07:34.628 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=85 T=0.2500 -> price=0.020233 (P1=0.943296, P2=0.932547)
+2026-05-13 13:07:34.628 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.001250
+2026-05-13 13:07:34.650 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:07:34.932 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:07:34.933 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 0.113561
+2026-05-13 13:07:34.933 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.001250
+2026-05-13 13:07:34.947 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:07:35.280 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:07:35.280 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 0.135477
+2026-05-13 13:07:35.280 | INFO     | __main__:run_single_config:188 |   20x100 T=0.25 K= 85 | SV: 0.1136 vs 0.0495 (+129.62%) | SVJ: 0.1355 vs 0.0202 (+569.57%) | 0.65s
+2026-05-13 13:07:35.283 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=90 T=0.2500 -> price=0.445299 (P1=0.878929, P2=0.859479)
+2026-05-13 13:07:35.286 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=90 T=0.2500 -> price=0.410780 (P1=0.876169, P2=0.856776)
+2026-05-13 13:07:35.286 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.001250
+2026-05-13 13:07:35.310 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:07:35.644 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:07:35.644 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 0.417288
+2026-05-13 13:07:35.644 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.001250
+2026-05-13 13:07:35.668 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:07:35.974 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:07:35.974 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 0.456260
+2026-05-13 13:07:35.975 | INFO     | __main__:run_single_config:188 |   20x100 T=0.25 K= 90 | SV: 0.4173 vs 0.4453 (-6.29%) | SVJ: 0.4563 vs 0.4108 (+11.07%) | 0.69s
+2026-05-13 13:07:35.977 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=95 T=0.2500 -> price=1.484150 (P1=0.763418, P2=0.733351)
+2026-05-13 13:07:35.980 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=95 T=0.2500 -> price=1.446483 (P1=0.761198, P2=0.731396)
+2026-05-13 13:07:35.980 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.001250
+2026-05-13 13:07:35.998 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:07:36.727 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:07:36.728 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 1.240905
+2026-05-13 13:07:36.729 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.001250
+2026-05-13 13:07:36.801 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:07:38.971 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:07:38.972 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 1.294496
+2026-05-13 13:07:38.973 | INFO     | __main__:run_single_config:188 |   20x100 T=0.25 K= 95 | SV: 1.2409 vs 1.4841 (-16.39%) | SVJ: 1.2945 vs 1.4465 (-10.51%) | 2.99s
+2026-05-13 13:07:39.001 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=100 T=0.2500 -> price=3.529700 (P1=0.594645, P2=0.556031)
+2026-05-13 13:07:39.033 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=100 T=0.2500 -> price=3.489093 (P1=0.594171, P2=0.555962)
+2026-05-13 13:07:39.034 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.001250
+2026-05-13 13:07:39.111 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:07:41.301 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:07:41.301 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 2.996535
+2026-05-13 13:07:41.302 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.001250
+2026-05-13 13:07:41.380 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:07:43.574 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:07:43.574 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 3.052393
+2026-05-13 13:07:43.575 | INFO     | __main__:run_single_config:188 |   20x100 T=0.25 K=100 | SV: 2.9965 vs 3.5297 (-15.11%) | SVJ: 3.0524 vs 3.4891 (-12.52%) | 4.54s
+2026-05-13 13:07:43.597 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=105 T=0.2500 -> price=6.702165 (P1=0.392687, P2=0.352942)
+2026-05-13 13:07:43.631 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=105 T=0.2500 -> price=6.661249 (P1=0.394464, P2=0.355040)
+2026-05-13 13:07:43.631 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.001250
+2026-05-13 13:07:43.694 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:07:45.857 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:07:45.858 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 5.935970
+2026-05-13 13:07:45.859 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.001250
+2026-05-13 13:07:45.938 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:07:48.133 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:07:48.134 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 5.980014
+2026-05-13 13:07:48.135 | INFO     | __main__:run_single_config:188 |   20x100 T=0.25 K=105 | SV: 5.9360 vs 6.7022 (-11.43%) | SVJ: 5.9800 vs 6.6612 (-10.23%) | 4.50s
+2026-05-13 13:07:48.156 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=110 T=0.2500 -> price=10.677559 (P1=0.204639, P2=0.173701)
+2026-05-13 13:07:48.191 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=110 T=0.2500 -> price=10.646253 (P1=0.207742, P2=0.176831)
+2026-05-13 13:07:48.192 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.001250
+2026-05-13 13:07:48.269 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:07:50.422 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:07:50.423 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 9.899763
+2026-05-13 13:07:50.423 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.001250
+2026-05-13 13:07:50.505 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:07:52.691 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:07:52.691 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 9.927129
+2026-05-13 13:07:52.692 | INFO     | __main__:run_single_config:188 |   20x100 T=0.25 K=110 | SV: 9.8998 vs 10.6776 (-7.28%) | SVJ: 9.9271 vs 10.6463 (-6.75%) | 4.50s
+2026-05-13 13:07:52.718 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=115 T=0.2500 -> price=14.966604 (P1=0.078322, P2=0.061383)
+2026-05-13 13:07:52.756 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=115 T=0.2500 -> price=14.952174 (P1=0.081074, P2=0.063920)
+2026-05-13 13:07:52.757 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.001250
+2026-05-13 13:07:52.831 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:07:55.052 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:07:55.053 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 14.468162
+2026-05-13 13:07:55.054 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.001250
+2026-05-13 13:07:55.135 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:07:57.311 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:07:57.312 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 14.482528
+2026-05-13 13:07:57.313 | INFO     | __main__:run_single_config:188 |   20x100 T=0.25 K=115 | SV: 14.4682 vs 14.9666 (-3.33%) | SVJ: 14.4825 vs 14.9522 (-3.14%) | 4.56s
+2026-05-13 13:07:57.334 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=85 T=0.5000 -> price=0.408021 (P1=0.901250, P2=0.877195)
+2026-05-13 13:07:57.368 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=85 T=0.5000 -> price=0.368170 (P1=0.898244, P2=0.874081)
+2026-05-13 13:07:57.368 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.002500
+2026-05-13 13:07:57.460 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:07:59.366 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:07:59.367 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 0.537651
+2026-05-13 13:07:59.367 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.002500
+2026-05-13 13:07:59.433 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:01.705 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:01.706 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 0.579749
+2026-05-13 13:08:01.707 | INFO     | __main__:run_single_config:188 |   20x100 T=0.50 K= 85 | SV: 0.5377 vs 0.4080 (+31.77%) | SVJ: 0.5797 vs 0.3682 (+57.47%) | 4.34s
+2026-05-13 13:08:01.727 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=90 T=0.5000 -> price=1.176222 (P1=0.835626, P2=0.801335)
+2026-05-13 13:08:01.760 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=90 T=0.5000 -> price=1.128305 (P1=0.832168, P2=0.797975)
+2026-05-13 13:08:01.761 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.002500
+2026-05-13 13:08:01.837 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:04.158 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:04.158 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 1.168690
+2026-05-13 13:08:04.159 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.002500
+2026-05-13 13:08:04.235 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:06.552 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:06.553 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 1.231643
+2026-05-13 13:08:06.553 | INFO     | __main__:run_single_config:188 |   20x100 T=0.50 K= 90 | SV: 1.1687 vs 1.1762 (-0.64%) | SVJ: 1.2316 vs 1.1283 (+9.16%) | 4.79s
+2026-05-13 13:08:06.576 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=95 T=0.5000 -> price=2.565317 (P1=0.743457, P2=0.698462)
+2026-05-13 13:08:06.619 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=95 T=0.5000 -> price=2.507706 (P1=0.740242, P2=0.695642)
+2026-05-13 13:08:06.619 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.002500
+2026-05-13 13:08:06.688 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:08.983 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:08.983 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 2.302432
+2026-05-13 13:08:08.984 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.002500
+2026-05-13 13:08:09.062 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:11.377 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:11.377 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 2.383336
+2026-05-13 13:08:11.378 | INFO     | __main__:run_single_config:188 |   20x100 T=0.50 K= 95 | SV: 2.3024 vs 2.5653 (-10.25%) | SVJ: 2.3833 vs 2.5077 (-4.96%) | 4.76s
+2026-05-13 13:08:11.399 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=100 T=0.5000 -> price=4.752499 (P1=0.624361, P2=0.570441)
+2026-05-13 13:08:11.431 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=100 T=0.5000 -> price=4.682384 (P1=0.622360, P2=0.569121)
+2026-05-13 13:08:11.431 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.002500
+2026-05-13 13:08:11.510 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:13.766 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:13.766 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 4.131471
+2026-05-13 13:08:13.768 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.002500
+2026-05-13 13:08:13.844 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:16.183 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:16.184 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 4.220059
+2026-05-13 13:08:16.185 | INFO     | __main__:run_single_config:188 |   20x100 T=0.50 K=100 | SV: 4.1315 vs 4.7525 (-13.07%) | SVJ: 4.2201 vs 4.6824 (-9.87%) | 4.75s
+2026-05-13 13:08:16.214 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=105 T=0.5000 -> price=7.788586 (P1=0.484538, P2=0.426366)
+2026-05-13 13:08:16.247 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=105 T=0.5000 -> price=7.706394 (P1=0.484606, P2=0.427227)
+2026-05-13 13:08:16.248 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.002500
+2026-05-13 13:08:16.322 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:18.629 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:18.629 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 6.779265
+2026-05-13 13:08:18.631 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.002500
+2026-05-13 13:08:18.707 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:21.003 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:21.003 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 6.861485
+2026-05-13 13:08:21.004 | INFO     | __main__:run_single_config:188 |   20x100 T=0.50 K=105 | SV: 6.7793 vs 7.7886 (-12.96%) | SVJ: 6.8615 vs 7.7064 (-10.96%) | 4.76s
+2026-05-13 13:08:21.029 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=110 T=0.5000 -> price=11.518234 (P1=0.338542, P2=0.283293)
+2026-05-13 13:08:21.062 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=110 T=0.5000 -> price=11.434142 (P1=0.340866, P2=0.286214)
+2026-05-13 13:08:21.062 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.002500
+2026-05-13 13:08:21.134 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:23.440 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:23.440 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 10.229039
+2026-05-13 13:08:23.441 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.002500
+2026-05-13 13:08:23.521 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:25.877 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:25.877 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 10.294074
+2026-05-13 13:08:25.878 | INFO     | __main__:run_single_config:188 |   20x100 T=0.50 K=110 | SV: 10.2290 vs 11.5182 (-11.19%) | SVJ: 10.2941 vs 11.4341 (-9.97%) | 4.82s
+2026-05-13 13:08:25.900 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=115 T=0.5000 -> price=15.621467 (P1=0.207151, P2=0.162255)
+2026-05-13 13:08:25.932 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=115 T=0.5000 -> price=15.554434 (P1=0.210933, P2=0.166185)
+2026-05-13 13:08:25.933 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.002500
+2026-05-13 13:08:26.021 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:28.342 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:28.342 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 14.311662
+2026-05-13 13:08:28.343 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.002500
+2026-05-13 13:08:28.411 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:30.687 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:30.689 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 14.356464
+2026-05-13 13:08:30.690 | INFO     | __main__:run_single_config:188 |   20x100 T=0.50 K=115 | SV: 14.3117 vs 15.6215 (-8.38%) | SVJ: 14.3565 vs 15.5544 (-7.70%) | 4.76s
+2026-05-13 13:08:30.708 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=85 T=1.0000 -> price=1.255588 (P1=0.864393, P2=0.820382)
+2026-05-13 13:08:30.738 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=85 T=1.0000 -> price=1.203727 (P1=0.860722, P2=0.816561)
+2026-05-13 13:08:30.738 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.005000
+2026-05-13 13:08:30.828 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:33.227 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:33.228 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 1.549353
+2026-05-13 13:08:33.229 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.005000
+2026-05-13 13:08:33.322 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:35.522 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:35.522 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 1.618758
+2026-05-13 13:08:35.523 | INFO     | __main__:run_single_config:188 |   20x100 T=1.00 K= 85 | SV: 1.5494 vs 1.2556 (+23.40%) | SVJ: 1.6188 vs 1.2037 (+34.48%) | 4.78s
+2026-05-13 13:08:35.548 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=90 T=1.0000 -> price=2.400541 (P1=0.808411, P2=0.753155)
+2026-05-13 13:08:35.579 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=90 T=1.0000 -> price=2.337010 (P1=0.804279, P2=0.749152)
+2026-05-13 13:08:35.579 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.005000
+2026-05-13 13:08:35.650 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:38.089 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:38.089 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 2.511065
+2026-05-13 13:08:38.090 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.005000
+2026-05-13 13:08:38.171 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:40.626 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:40.627 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 2.602919
+2026-05-13 13:08:40.628 | INFO     | __main__:run_single_config:188 |   20x100 T=1.00 K= 90 | SV: 2.5111 vs 2.4005 (+4.60%) | SVJ: 2.6029 vs 2.3370 (+11.38%) | 5.05s
+2026-05-13 13:08:40.657 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=95 T=1.0000 -> price=4.069991 (P1=0.738815, P2=0.672549)
+2026-05-13 13:08:40.693 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=95 T=1.0000 -> price=3.990052 (P1=0.734653, P2=0.668901)
+2026-05-13 13:08:40.694 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.005000
+2026-05-13 13:08:40.766 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:43.203 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:43.205 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 3.876723
+2026-05-13 13:08:43.206 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.005000
+2026-05-13 13:08:43.278 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:45.649 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:45.649 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 3.989143
+2026-05-13 13:08:45.651 | INFO     | __main__:run_single_config:188 |   20x100 T=1.00 K= 95 | SV: 3.8767 vs 4.0700 (-4.75%) | SVJ: 3.9891 vs 3.9901 (-0.02%) | 4.96s
+2026-05-13 13:08:45.684 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=100 T=1.0000 -> price=6.330703 (P1=0.656087, P2=0.580379)
+2026-05-13 13:08:45.725 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=100 T=1.0000 -> price=6.228926 (P1=0.652505, P2=0.577736)
+2026-05-13 13:08:45.726 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.005000
+2026-05-13 13:08:45.799 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:48.181 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:48.181 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 5.722982
+2026-05-13 13:08:48.182 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.005000
+2026-05-13 13:08:48.257 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:50.634 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:50.635 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 5.849797
+2026-05-13 13:08:50.636 | INFO     | __main__:run_single_config:188 |   20x100 T=1.00 K=100 | SV: 5.7230 vs 6.3307 (-9.60%) | SVJ: 5.8498 vs 6.2289 (-6.09%) | 4.91s
+2026-05-13 13:08:50.664 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=105 T=1.0000 -> price=9.190440 (P1=0.562454, P2=0.480405)
+2026-05-13 13:08:50.701 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=105 T=1.0000 -> price=9.063876 (P1=0.560128, P2=0.479365)
+2026-05-13 13:08:50.702 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.005000
+2026-05-13 13:08:50.778 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:53.217 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:53.218 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 8.102106
+2026-05-13 13:08:53.219 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.005000
+2026-05-13 13:08:53.294 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:55.736 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:55.736 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 8.233598
+2026-05-13 13:08:55.738 | INFO     | __main__:run_single_config:188 |   20x100 T=1.00 K=105 | SV: 8.1021 vs 9.1904 (-11.84%) | SVJ: 8.2336 vs 9.0639 (-9.16%) | 5.04s
+2026-05-13 13:08:55.766 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=110 T=1.0000 -> price=12.582070 (P1=0.462163, P2=0.378301)
+2026-05-13 13:08:55.808 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=110 T=1.0000 -> price=12.434430 (P1=0.461639, P2=0.379193)
+2026-05-13 13:08:55.809 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.005000
+2026-05-13 13:08:55.876 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:08:58.336 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:08:58.336 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 11.029240
+2026-05-13 13:08:58.337 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.005000
+2026-05-13 13:08:58.426 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:09:00.842 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:09:00.843 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 11.154401
+2026-05-13 13:09:00.844 | INFO     | __main__:run_single_config:188 |   20x100 T=1.00 K=110 | SV: 11.0292 vs 12.5821 (-12.34%) | SVJ: 11.1544 vs 12.4344 (-10.29%) | 5.03s
+2026-05-13 13:09:00.874 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=115 T=1.0000 -> price=16.370746 (P1=0.361300, P2=0.281005)
+2026-05-13 13:09:00.911 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=115 T=1.0000 -> price=16.214886 (P1=0.362772, P2=0.283721)
+2026-05-13 13:09:00.911 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.005000
+2026-05-13 13:09:00.976 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:09:03.403 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:09:03.404 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 14.466431
+2026-05-13 13:09:03.404 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 20x100, 200 steps, dt=0.005000
+2026-05-13 13:09:03.484 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 20+1 exponentials
+2026-05-13 13:09:05.856 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:09:05.856 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 14.576122
+2026-05-13 13:09:05.859 | INFO     | __main__:run_single_config:188 |   20x100 T=1.00 K=115 | SV: 14.4664 vs 16.3707 (-11.63%) | SVJ: 14.5761 vs 16.2149 (-10.11%) | 4.95s
+2026-05-13 13:09:05.860 | INFO     | __main__:run_convergence_study:245 | 
+--- Grid: 30x150, n_steps=200 ---
+2026-05-13 13:09:05.861 | DEBUG    | src.grid_construction:generate_sinh_grid:65 | Sinh grid: [0.0080, 0.1200], center=0.0400, alpha=0.5, spacing range=[0.003850, 0.003896]
+2026-05-13 13:09:05.861 | INFO     | src.grid_construction:build_variance_grid:112 | Layer 1 variance grid built: 30 points, range=[0.008000, 0.120000]
+2026-05-13 13:09:05.862 | DEBUG    | src.grid_construction:generate_sinh_grid:65 | Sinh grid: [3.6593, 5.7377], center=4.6985, alpha=1.0, spacing range=[0.012199, 0.017517]
+2026-05-13 13:09:05.862 | INFO     | src.grid_construction:build_price_grid:161 | Layer 2 price grid built: 150 points, range=[3.6593, 5.7377] (S range=[38.83, 310.36])
+2026-05-13 13:09:05.867 | DEBUG    | src.layer1_variance:construct_variance_generator:204 | Layer 1 generator: stencil=auto, 5pt interior: 0/26, fallbacks: 26
+2026-05-13 13:09:05.868 | INFO     | src.layer1_variance:construct_variance_generator:208 | Layer 1 generator Q^(m) built: shape=(30, 30), off-diag range=[16.450721, 364.317027]
+2026-05-13 13:09:05.868 | DEBUG    | src.layer1_variance:_validate_generator:347 | Layer 1 variance generator validated OK
+2026-05-13 13:09:05.869 | INFO     | src.layer1_variance:compute_v_generator_exp_moment:254 | V-generator exp moment: epsilon_v range=[-1.130762e-13, 7.216450e-14], |max|=1.130762e-13
+2026-05-13 13:09:05.869 | INFO     | src.layer2_price:construct_all_regime_generators:346 | Drift correction: 18/30 regimes corrected, epsilon_v range=[-1.130762e-13, 7.216450e-14]
+2026-05-13 13:09:05.894 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/146, fallbacks: 146
+2026-05-13 13:09:05.920 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/146, fallbacks: 146
+2026-05-13 13:09:05.942 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/146, fallbacks: 146
+2026-05-13 13:09:05.968 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/146, fallbacks: 146
+2026-05-13 13:09:05.994 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/146, fallbacks: 146
+2026-05-13 13:09:06.020 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/146, fallbacks: 146
+2026-05-13 13:09:06.043 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.072 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/146, fallbacks: 146
+2026-05-13 13:09:06.095 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.118 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.150 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.174 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.196 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.218 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.241 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.263 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.290 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/146, fallbacks: 146
+2026-05-13 13:09:06.316 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/146, fallbacks: 146
+2026-05-13 13:09:06.339 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.373 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.398 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.420 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.444 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.467 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.489 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/146, fallbacks: 146
+2026-05-13 13:09:06.511 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.533 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.556 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.581 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/146, fallbacks: 146
+2026-05-13 13:09:06.605 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/146, fallbacks: 146
+2026-05-13 13:09:06.610 | INFO     | src.layer2_price:construct_all_regime_generators:367 | Layer 2 generators built: tensor (30, 150, 150)
+2026-05-13 13:09:06.697 | DEBUG    | src.jump_generator:construct_merton_jump_matrix:99 | Merton jump matrix built: shape=(150,150), off-diag range=[0.000000, 0.010431], max_exit_rate=0.095707
+2026-05-13 13:09:06.719 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.744 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.768 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.791 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.814 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.837 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.862 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.886 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.910 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.931 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.949 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.972 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:06.994 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:07.018 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:07.041 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:07.065 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:07.089 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:07.113 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:07.134 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:07.159 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:07.183 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:07.208 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:07.232 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:07.259 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:07.291 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:07.317 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:07.342 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:07.367 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:07.391 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:07.414 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/146, fallbacks: 146
+2026-05-13 13:09:07.421 | INFO     | src.jump_generator:construct_all_regime_generators_svj:303 | SVJ regime generators built: tensor (30, 150, 150), jump_type=merton, lambda=0.1, drift_correction=0.004400
+2026-05-13 13:09:07.447 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=85 T=0.2500 -> price=0.049457 (P1=0.945616, P2=0.934950)
+2026-05-13 13:09:07.481 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=85 T=0.2500 -> price=0.020233 (P1=0.943296, P2=0.932547)
+2026-05-13 13:09:07.482 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.001250
+2026-05-13 13:09:07.884 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:09:12.621 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:09:12.622 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 0.103313
+2026-05-13 13:09:12.624 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.001250
+2026-05-13 13:09:12.997 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:09:17.340 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:09:17.340 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 0.125206
+2026-05-13 13:09:17.343 | INFO     | __main__:run_single_config:188 |   30x150 T=0.25 K= 85 | SV: 0.1033 vs 0.0495 (+108.90%) | SVJ: 0.1252 vs 0.0202 (+518.81%) | 9.86s
+2026-05-13 13:09:17.360 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=90 T=0.2500 -> price=0.445299 (P1=0.878929, P2=0.859479)
+2026-05-13 13:09:17.387 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=90 T=0.2500 -> price=0.410780 (P1=0.876169, P2=0.856776)
+2026-05-13 13:09:17.387 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.001250
+2026-05-13 13:09:17.776 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:09:22.448 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:09:22.449 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 0.395215
+2026-05-13 13:09:22.451 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.001250
+2026-05-13 13:09:22.838 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:09:27.196 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:09:27.196 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 0.434444
+2026-05-13 13:09:27.199 | INFO     | __main__:run_single_config:188 |   30x150 T=0.25 K= 90 | SV: 0.3952 vs 0.4453 (-11.25%) | SVJ: 0.4344 vs 0.4108 (+5.76%) | 9.81s
+2026-05-13 13:09:27.222 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=95 T=0.2500 -> price=1.484150 (P1=0.763418, P2=0.733351)
+2026-05-13 13:09:27.254 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=95 T=0.2500 -> price=1.446483 (P1=0.761198, P2=0.731396)
+2026-05-13 13:09:27.255 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.001250
+2026-05-13 13:09:27.617 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:09:32.316 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:09:32.316 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 1.206038
+2026-05-13 13:09:32.317 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.001250
+2026-05-13 13:09:32.628 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:09:36.852 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:09:36.853 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 1.260109
+2026-05-13 13:09:36.854 | INFO     | __main__:run_single_config:188 |   30x150 T=0.25 K= 95 | SV: 1.2060 vs 1.4841 (-18.74%) | SVJ: 1.2601 vs 1.4465 (-12.88%) | 9.60s
+2026-05-13 13:09:36.876 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=100 T=0.2500 -> price=3.529700 (P1=0.594645, P2=0.556031)
+2026-05-13 13:09:36.910 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=100 T=0.2500 -> price=3.489093 (P1=0.594171, P2=0.555962)
+2026-05-13 13:09:36.910 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.001250
+2026-05-13 13:09:37.259 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:09:41.950 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:09:41.951 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 2.957185
+2026-05-13 13:09:41.952 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.001250
+2026-05-13 13:09:42.275 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:09:47.200 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:09:47.200 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 3.013390
+2026-05-13 13:09:47.202 | INFO     | __main__:run_single_config:188 |   30x150 T=0.25 K=100 | SV: 2.9572 vs 3.5297 (-16.22%) | SVJ: 3.0134 vs 3.4891 (-13.63%) | 10.29s
+2026-05-13 13:09:47.224 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=105 T=0.2500 -> price=6.702165 (P1=0.392687, P2=0.352942)
+2026-05-13 13:09:47.259 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=105 T=0.2500 -> price=6.661249 (P1=0.394464, P2=0.355040)
+2026-05-13 13:09:47.260 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.001250
+2026-05-13 13:09:47.594 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:09:52.237 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:09:52.238 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 5.904619
+2026-05-13 13:09:52.239 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.001250
+2026-05-13 13:09:52.553 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:09:57.122 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:09:57.122 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 5.948596
+2026-05-13 13:09:57.124 | INFO     | __main__:run_single_config:188 |   30x150 T=0.25 K=105 | SV: 5.9046 vs 6.7022 (-11.90%) | SVJ: 5.9486 vs 6.6612 (-10.70%) | 9.86s
+2026-05-13 13:09:57.150 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=110 T=0.2500 -> price=10.677559 (P1=0.204639, P2=0.173701)
+2026-05-13 13:09:57.192 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=110 T=0.2500 -> price=10.646253 (P1=0.207742, P2=0.176831)
+2026-05-13 13:09:57.193 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.001250
+2026-05-13 13:09:57.585 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:10:02.729 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:10:02.729 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 9.882069
+2026-05-13 13:10:02.732 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.001250
+2026-05-13 13:10:03.048 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:10:07.480 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:10:07.480 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 9.909067
+2026-05-13 13:10:07.482 | INFO     | __main__:run_single_config:188 |   30x150 T=0.25 K=110 | SV: 9.8821 vs 10.6776 (-7.45%) | SVJ: 9.9091 vs 10.6463 (-6.92%) | 10.29s
+2026-05-13 13:10:07.505 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=115 T=0.2500 -> price=14.966604 (P1=0.078322, P2=0.061383)
+2026-05-13 13:10:07.537 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=115 T=0.2500 -> price=14.952174 (P1=0.081074, P2=0.063920)
+2026-05-13 13:10:07.537 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.001250
+2026-05-13 13:10:07.868 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:10:13.125 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:10:13.126 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 14.464760
+2026-05-13 13:10:13.128 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.001250
+2026-05-13 13:10:13.502 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:10:17.881 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:10:17.882 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 14.478756
+2026-05-13 13:10:17.883 | INFO     | __main__:run_single_config:188 |   30x150 T=0.25 K=115 | SV: 14.4648 vs 14.9666 (-3.35%) | SVJ: 14.4788 vs 14.9522 (-3.17%) | 10.35s
+2026-05-13 13:10:17.904 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=85 T=0.5000 -> price=0.408021 (P1=0.901250, P2=0.877195)
+2026-05-13 13:10:17.937 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=85 T=0.5000 -> price=0.368170 (P1=0.898244, P2=0.874081)
+2026-05-13 13:10:17.937 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.002500
+2026-05-13 13:10:18.269 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:10:23.165 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:10:23.166 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 0.503991
+2026-05-13 13:10:23.168 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.002500
+2026-05-13 13:10:23.524 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:10:28.765 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:10:28.766 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 0.546242
+2026-05-13 13:10:28.768 | INFO     | __main__:run_single_config:188 |   30x150 T=0.50 K= 85 | SV: 0.5040 vs 0.4080 (+23.52%) | SVJ: 0.5462 vs 0.3682 (+48.37%) | 10.83s
+2026-05-13 13:10:28.789 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=90 T=0.5000 -> price=1.176222 (P1=0.835626, P2=0.801335)
+2026-05-13 13:10:28.821 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=90 T=0.5000 -> price=1.128305 (P1=0.832168, P2=0.797975)
+2026-05-13 13:10:28.821 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.002500
+2026-05-13 13:10:29.199 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:10:34.222 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:10:34.222 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 1.118013
+2026-05-13 13:10:34.224 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.002500
+2026-05-13 13:10:34.583 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:10:39.753 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:10:39.753 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 1.181603
+2026-05-13 13:10:39.755 | INFO     | __main__:run_single_config:188 |   30x150 T=0.50 K= 90 | SV: 1.1180 vs 1.1762 (-4.95%) | SVJ: 1.1816 vs 1.1283 (+4.72%) | 10.93s
+2026-05-13 13:10:39.779 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=95 T=0.5000 -> price=2.565317 (P1=0.743457, P2=0.698462)
+2026-05-13 13:10:39.814 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=95 T=0.5000 -> price=2.507706 (P1=0.740242, P2=0.695642)
+2026-05-13 13:10:39.814 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.002500
+2026-05-13 13:10:40.179 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:10:45.006 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:10:45.006 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 2.236840
+2026-05-13 13:10:45.007 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.002500
+2026-05-13 13:10:45.353 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:10:50.472 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:10:50.472 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 2.318765
+2026-05-13 13:10:50.473 | INFO     | __main__:run_single_config:188 |   30x150 T=0.50 K= 95 | SV: 2.2368 vs 2.5653 (-12.80%) | SVJ: 2.3188 vs 2.5077 (-7.53%) | 10.66s
+2026-05-13 13:10:50.498 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=100 T=0.5000 -> price=4.752499 (P1=0.624361, P2=0.570441)
+2026-05-13 13:10:50.534 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=100 T=0.5000 -> price=4.682384 (P1=0.622360, P2=0.569121)
+2026-05-13 13:10:50.535 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.002500
+2026-05-13 13:10:50.899 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:10:56.201 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:10:56.201 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 4.059903
+2026-05-13 13:10:56.204 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.002500
+2026-05-13 13:10:56.627 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:11:01.284 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:11:01.284 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 4.149495
+2026-05-13 13:11:01.286 | INFO     | __main__:run_single_config:188 |   30x150 T=0.50 K=100 | SV: 4.0599 vs 4.7525 (-14.57%) | SVJ: 4.1495 vs 4.6824 (-11.38%) | 10.75s
+2026-05-13 13:11:01.309 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=105 T=0.5000 -> price=7.788586 (P1=0.484538, P2=0.426366)
+2026-05-13 13:11:01.342 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=105 T=0.5000 -> price=7.706394 (P1=0.484606, P2=0.427227)
+2026-05-13 13:11:01.342 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.002500
+2026-05-13 13:11:01.733 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:11:06.484 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:11:06.484 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 6.714780
+2026-05-13 13:11:06.485 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.002500
+2026-05-13 13:11:06.837 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:11:11.584 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:11:11.585 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 6.797502
+2026-05-13 13:11:11.587 | INFO     | __main__:run_single_config:188 |   30x150 T=0.50 K=105 | SV: 6.7148 vs 7.7886 (-13.79%) | SVJ: 6.7975 vs 7.7064 (-11.79%) | 10.24s
+2026-05-13 13:11:11.612 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=110 T=0.5000 -> price=11.518234 (P1=0.338542, P2=0.283293)
+2026-05-13 13:11:11.643 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=110 T=0.5000 -> price=11.434142 (P1=0.340866, P2=0.286214)
+2026-05-13 13:11:11.644 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.002500
+2026-05-13 13:11:11.974 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:11:16.697 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:11:16.698 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 10.179861
+2026-05-13 13:11:16.702 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.002500
+2026-05-13 13:11:17.033 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:11:21.695 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:11:21.695 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 10.244727
+2026-05-13 13:11:21.697 | INFO     | __main__:run_single_config:188 |   30x150 T=0.50 K=110 | SV: 10.1799 vs 11.5182 (-11.62%) | SVJ: 10.2447 vs 11.4341 (-10.40%) | 10.05s
+2026-05-13 13:11:21.721 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=115 T=0.5000 -> price=15.621467 (P1=0.207151, P2=0.162255)
+2026-05-13 13:11:21.754 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=115 T=0.5000 -> price=15.554434 (P1=0.210933, P2=0.166185)
+2026-05-13 13:11:21.754 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.002500
+2026-05-13 13:11:22.162 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:11:26.767 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:11:26.767 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 14.285790
+2026-05-13 13:11:26.769 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.002500
+2026-05-13 13:11:27.149 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:11:31.701 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:11:31.702 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 14.329887
+2026-05-13 13:11:31.704 | INFO     | __main__:run_single_config:188 |   30x150 T=0.50 K=115 | SV: 14.2858 vs 15.6215 (-8.55%) | SVJ: 14.3299 vs 15.5544 (-7.87%) | 9.95s
+2026-05-13 13:11:31.725 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=85 T=1.0000 -> price=1.255588 (P1=0.864393, P2=0.820382)
+2026-05-13 13:11:31.759 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=85 T=1.0000 -> price=1.203727 (P1=0.860722, P2=0.816561)
+2026-05-13 13:11:31.760 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.005000
+2026-05-13 13:11:32.278 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:11:37.191 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:11:37.191 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 1.479378
+2026-05-13 13:11:37.193 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.005000
+2026-05-13 13:11:37.681 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:11:42.493 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:11:42.493 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 1.549287
+2026-05-13 13:11:42.495 | INFO     | __main__:run_single_config:188 |   30x150 T=1.00 K= 85 | SV: 1.4794 vs 1.2556 (+17.82%) | SVJ: 1.5493 vs 1.2037 (+28.71%) | 10.73s
+2026-05-13 13:11:42.518 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=90 T=1.0000 -> price=2.400541 (P1=0.808411, P2=0.753155)
+2026-05-13 13:11:42.550 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=90 T=1.0000 -> price=2.337010 (P1=0.804279, P2=0.749152)
+2026-05-13 13:11:42.551 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.005000
+2026-05-13 13:11:43.045 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:11:47.974 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:11:47.974 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 2.422422
+2026-05-13 13:11:47.976 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.005000
+2026-05-13 13:11:48.445 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:11:53.468 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:11:53.469 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 2.515464
+2026-05-13 13:11:53.470 | INFO     | __main__:run_single_config:188 |   30x150 T=1.00 K= 90 | SV: 2.4224 vs 2.4005 (+0.91%) | SVJ: 2.5155 vs 2.3370 (+7.64%) | 10.92s
+2026-05-13 13:11:53.496 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=95 T=1.0000 -> price=4.069991 (P1=0.738815, P2=0.672549)
+2026-05-13 13:11:53.535 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=95 T=1.0000 -> price=3.990052 (P1=0.734653, P2=0.668901)
+2026-05-13 13:11:53.535 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.005000
+2026-05-13 13:11:53.934 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:11:58.958 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:11:58.959 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 3.772578
+2026-05-13 13:11:58.960 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.005000
+2026-05-13 13:11:59.423 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:12:04.355 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:12:04.355 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 3.886817
+2026-05-13 13:12:04.357 | INFO     | __main__:run_single_config:188 |   30x150 T=1.00 K= 95 | SV: 3.7726 vs 4.0700 (-7.31%) | SVJ: 3.8868 vs 3.9901 (-2.59%) | 10.82s
+2026-05-13 13:12:04.384 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=100 T=1.0000 -> price=6.330703 (P1=0.656087, P2=0.580379)
+2026-05-13 13:12:04.425 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=100 T=1.0000 -> price=6.228926 (P1=0.652505, P2=0.577736)
+2026-05-13 13:12:04.426 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.005000
+2026-05-13 13:12:04.938 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:12:09.953 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:12:09.953 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 5.610651
+2026-05-13 13:12:09.955 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.005000
+2026-05-13 13:12:10.512 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:12:15.333 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:12:15.334 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 5.739600
+2026-05-13 13:12:15.335 | INFO     | __main__:run_single_config:188 |   30x150 T=1.00 K=100 | SV: 5.6107 vs 6.3307 (-11.37%) | SVJ: 5.7396 vs 6.2289 (-7.86%) | 10.91s
+2026-05-13 13:12:15.363 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=105 T=1.0000 -> price=9.190440 (P1=0.562454, P2=0.480405)
+2026-05-13 13:12:15.411 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=105 T=1.0000 -> price=9.063876 (P1=0.560128, P2=0.479365)
+2026-05-13 13:12:15.412 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.005000
+2026-05-13 13:12:15.898 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:12:20.672 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:12:20.673 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 7.991956
+2026-05-13 13:12:20.674 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.005000
+2026-05-13 13:12:21.139 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:12:26.071 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:12:26.072 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 8.125377
+2026-05-13 13:12:26.074 | INFO     | __main__:run_single_config:188 |   30x150 T=1.00 K=105 | SV: 7.9920 vs 9.1904 (-13.04%) | SVJ: 8.1254 vs 9.0639 (-10.35%) | 10.66s
+2026-05-13 13:12:26.102 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=110 T=1.0000 -> price=12.582070 (P1=0.462163, P2=0.378301)
+2026-05-13 13:12:26.144 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=110 T=1.0000 -> price=12.434430 (P1=0.461639, P2=0.379193)
+2026-05-13 13:12:26.145 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.005000
+2026-05-13 13:12:26.571 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:12:31.269 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:12:31.269 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 10.930080
+2026-05-13 13:12:31.271 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.005000
+2026-05-13 13:12:31.647 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:12:36.464 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:12:36.464 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 11.056503
+2026-05-13 13:12:36.466 | INFO     | __main__:run_single_config:188 |   30x150 T=1.00 K=110 | SV: 10.9301 vs 12.5821 (-13.13%) | SVJ: 11.0565 vs 12.4344 (-11.08%) | 10.32s
+2026-05-13 13:12:36.493 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=115 T=1.0000 -> price=16.370746 (P1=0.361300, P2=0.281005)
+2026-05-13 13:12:36.545 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=115 T=1.0000 -> price=16.214886 (P1=0.362772, P2=0.283721)
+2026-05-13 13:12:36.546 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.005000
+2026-05-13 13:12:37.033 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:12:41.984 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:12:41.984 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 14.389726
+2026-05-13 13:12:41.986 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 30x150, 200 steps, dt=0.005000
+2026-05-13 13:12:42.466 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 30+1 exponentials
+2026-05-13 13:12:47.394 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:12:47.395 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 14.499639
+2026-05-13 13:12:47.396 | INFO     | __main__:run_single_config:188 |   30x150 T=1.00 K=115 | SV: 14.3897 vs 16.3707 (-12.10%) | SVJ: 14.4996 vs 16.2149 (-10.58%) | 10.85s
+2026-05-13 13:12:47.398 | INFO     | __main__:run_convergence_study:245 | 
+--- Grid: 40x200, n_steps=200 ---
+2026-05-13 13:12:47.399 | DEBUG    | src.grid_construction:generate_sinh_grid:65 | Sinh grid: [0.0080, 0.1200], center=0.0400, alpha=0.5, spacing range=[0.002863, 0.002898]
+2026-05-13 13:12:47.399 | INFO     | src.grid_construction:build_variance_grid:112 | Layer 1 variance grid built: 40 points, range=[0.008000, 0.120000]
+2026-05-13 13:12:47.399 | DEBUG    | src.grid_construction:generate_sinh_grid:65 | Sinh grid: [3.6593, 5.7377], center=4.6985, alpha=1.0, spacing range=[0.009134, 0.013130]
+2026-05-13 13:12:47.399 | INFO     | src.grid_construction:build_price_grid:161 | Layer 2 price grid built: 200 points, range=[3.6593, 5.7377] (S range=[38.83, 310.36])
+2026-05-13 13:12:47.406 | DEBUG    | src.layer1_variance:construct_variance_generator:204 | Layer 1 generator: stencil=auto, 5pt interior: 0/36, fallbacks: 36
+2026-05-13 13:12:47.406 | INFO     | src.layer1_variance:construct_variance_generator:208 | Layer 1 generator Q^(m) built: shape=(40, 40), off-diag range=[22.096616, 655.048752]
+2026-05-13 13:12:47.407 | DEBUG    | src.layer1_variance:_validate_generator:347 | Layer 1 variance generator validated OK
+2026-05-13 13:12:47.407 | INFO     | src.layer1_variance:compute_v_generator_exp_moment:254 | V-generator exp moment: epsilon_v range=[-1.527389e-13, 1.751377e-13], |max|=1.751377e-13
+2026-05-13 13:12:47.408 | INFO     | src.layer2_price:construct_all_regime_generators:346 | Drift correction: 33/40 regimes corrected, epsilon_v range=[-1.527389e-13, 1.751377e-13]
+2026-05-13 13:12:47.440 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/196, fallbacks: 196
+2026-05-13 13:12:47.467 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:47.490 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:47.523 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/196, fallbacks: 196
+2026-05-13 13:12:47.562 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/196, fallbacks: 196
+2026-05-13 13:12:47.592 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:47.628 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/196, fallbacks: 196
+2026-05-13 13:12:47.658 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:47.690 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:47.719 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:47.755 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/196, fallbacks: 196
+2026-05-13 13:12:47.787 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:47.820 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/196, fallbacks: 196
+2026-05-13 13:12:47.857 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:47.892 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:47.924 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:47.955 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:47.987 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.016 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.047 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.074 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.107 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.135 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.163 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.193 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.224 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.256 | DEBUG    | src.layer2_price:construct_regime_generator:223 | Layer 2 generator: stencil=auto, 5pt interior points: 0/196, fallbacks: 196
+2026-05-13 13:12:48.286 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.319 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.352 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.381 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.412 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.441 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.483 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.514 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.546 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.580 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.611 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.642 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.671 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.682 | INFO     | src.layer2_price:construct_all_regime_generators:367 | Layer 2 generators built: tensor (40, 200, 200)
+2026-05-13 13:12:48.805 | DEBUG    | src.jump_generator:construct_merton_jump_matrix:99 | Merton jump matrix built: shape=(200,200), off-diag range=[0.000000, 0.007834], max_exit_rate=0.096785
+2026-05-13 13:12:48.835 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.867 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.902 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.939 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:48.976 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.018 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.054 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.089 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.121 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.154 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.188 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.226 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.259 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.295 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.328 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.362 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.396 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.429 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.463 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.488 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.520 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.558 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.610 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.647 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.684 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.726 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.760 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.795 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.828 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.863 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.898 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.932 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.966 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:49.998 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:50.032 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:50.068 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:50.101 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:50.137 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:50.181 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:50.214 | DEBUG    | src.layer2_price:construct_regime_generator_with_drift:310 | Layer 2 drift generator: stencil=auto, 5pt: 0/196, fallbacks: 196
+2026-05-13 13:12:50.229 | INFO     | src.jump_generator:construct_all_regime_generators_svj:303 | SVJ regime generators built: tensor (40, 200, 200), jump_type=merton, lambda=0.1, drift_correction=0.004400
+2026-05-13 13:12:50.258 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=85 T=0.2500 -> price=0.049457 (P1=0.945616, P2=0.934950)
+2026-05-13 13:12:50.290 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=85 T=0.2500 -> price=0.020233 (P1=0.943296, P2=0.932547)
+2026-05-13 13:12:50.292 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.001250
+2026-05-13 13:12:51.275 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:13:01.106 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:13:01.106 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 0.094405
+2026-05-13 13:13:01.108 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.001250
+2026-05-13 13:13:01.954 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:13:09.519 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:13:09.520 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 0.116233
+2026-05-13 13:13:09.523 | INFO     | __main__:run_single_config:188 |   40x200 T=0.25 K= 85 | SV: 0.0944 vs 0.0495 (+90.88%) | SVJ: 0.1162 vs 0.0202 (+474.46%) | 19.23s
+2026-05-13 13:13:09.539 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=90 T=0.2500 -> price=0.445299 (P1=0.878929, P2=0.859479)
+2026-05-13 13:13:09.562 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=90 T=0.2500 -> price=0.410780 (P1=0.876169, P2=0.856776)
+2026-05-13 13:13:09.563 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.001250
+2026-05-13 13:13:10.441 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:13:19.840 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:13:19.840 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 0.374122
+2026-05-13 13:13:19.845 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.001250
+2026-05-13 13:13:20.608 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:13:27.928 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:13:27.929 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 0.413568
+2026-05-13 13:13:27.932 | INFO     | __main__:run_single_config:188 |   40x200 T=0.25 K= 90 | SV: 0.3741 vs 0.4453 (-15.98%) | SVJ: 0.4136 vs 0.4108 (+0.68%) | 18.37s
+2026-05-13 13:13:27.951 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=95 T=0.2500 -> price=1.484150 (P1=0.763418, P2=0.733351)
+2026-05-13 13:13:27.984 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=95 T=0.2500 -> price=1.446483 (P1=0.761198, P2=0.731396)
+2026-05-13 13:13:27.985 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.001250
+2026-05-13 13:13:28.905 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:13:38.091 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:13:38.091 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 1.170083
+2026-05-13 13:13:38.094 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.001250
+2026-05-13 13:13:38.914 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:13:46.286 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:13:46.286 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 1.224662
+2026-05-13 13:13:46.289 | INFO     | __main__:run_single_config:188 |   40x200 T=0.25 K= 95 | SV: 1.1701 vs 1.4841 (-21.16%) | SVJ: 1.2247 vs 1.4465 (-15.34%) | 18.30s
+2026-05-13 13:13:46.312 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=100 T=0.2500 -> price=3.529700 (P1=0.594645, P2=0.556031)
+2026-05-13 13:13:46.345 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=100 T=0.2500 -> price=3.489093 (P1=0.594171, P2=0.555962)
+2026-05-13 13:13:46.346 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.001250
+2026-05-13 13:13:47.325 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:13:56.568 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:13:56.569 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 2.913955
+2026-05-13 13:13:56.572 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.001250
+2026-05-13 13:13:57.386 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:14:04.825 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:14:04.825 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 2.970609
+2026-05-13 13:14:04.828 | INFO     | __main__:run_single_config:188 |   40x200 T=0.25 K=100 | SV: 2.9140 vs 3.5297 (-17.44%) | SVJ: 2.9706 vs 3.4891 (-14.86%) | 18.48s
+2026-05-13 13:14:04.849 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=105 T=0.2500 -> price=6.702165 (P1=0.392687, P2=0.352942)
+2026-05-13 13:14:04.884 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=105 T=0.2500 -> price=6.661249 (P1=0.394464, P2=0.355040)
+2026-05-13 13:14:04.885 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.001250
+2026-05-13 13:14:05.599 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:14:14.763 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:14:14.763 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 5.869201
+2026-05-13 13:14:14.765 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.001250
+2026-05-13 13:14:15.621 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:14:23.007 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:14:23.008 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 5.913218
+2026-05-13 13:14:23.011 | INFO     | __main__:run_single_config:188 |   40x200 T=0.25 K=105 | SV: 5.8692 vs 6.7022 (-12.43%) | SVJ: 5.9132 vs 6.6612 (-11.23%) | 18.13s
+2026-05-13 13:14:23.031 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=110 T=0.2500 -> price=10.677559 (P1=0.204639, P2=0.173701)
+2026-05-13 13:14:23.063 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=110 T=0.2500 -> price=10.646253 (P1=0.207742, P2=0.176831)
+2026-05-13 13:14:23.064 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.001250
+2026-05-13 13:14:24.037 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:14:33.132 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:14:33.132 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 9.863704
+2026-05-13 13:14:33.135 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.001250
+2026-05-13 13:14:33.955 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:14:41.506 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:14:41.507 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 9.890413
+2026-05-13 13:14:41.511 | INFO     | __main__:run_single_config:188 |   40x200 T=0.25 K=110 | SV: 9.8637 vs 10.6776 (-7.62%) | SVJ: 9.8904 vs 10.6463 (-7.10%) | 18.45s
+2026-05-13 13:14:41.538 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=115 T=0.2500 -> price=14.966604 (P1=0.078322, P2=0.061383)
+2026-05-13 13:14:41.568 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=115 T=0.2500 -> price=14.952174 (P1=0.081074, P2=0.063920)
+2026-05-13 13:14:41.569 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.001250
+2026-05-13 13:14:42.540 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:14:51.738 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:14:51.738 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 14.461362
+2026-05-13 13:14:51.741 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.001250
+2026-05-13 13:14:52.678 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:15:00.428 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:15:00.428 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 14.475023
+2026-05-13 13:15:00.430 | INFO     | __main__:run_single_config:188 |   40x200 T=0.25 K=115 | SV: 14.4614 vs 14.9666 (-3.38%) | SVJ: 14.4750 vs 14.9522 (-3.19%) | 18.86s
+2026-05-13 13:15:00.453 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=85 T=0.5000 -> price=0.408021 (P1=0.901250, P2=0.877195)
+2026-05-13 13:15:00.486 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=85 T=0.5000 -> price=0.368170 (P1=0.898244, P2=0.874081)
+2026-05-13 13:15:00.487 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.002500
+2026-05-13 13:15:01.475 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:15:10.696 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:15:10.696 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 0.474561
+2026-05-13 13:15:10.699 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.002500
+2026-05-13 13:15:11.694 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:15:19.690 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:15:19.691 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 0.516882
+2026-05-13 13:15:19.694 | INFO     | __main__:run_single_config:188 |   40x200 T=0.50 K= 85 | SV: 0.4746 vs 0.4080 (+16.31%) | SVJ: 0.5169 vs 0.3682 (+40.39%) | 19.21s
+2026-05-13 13:15:19.719 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=90 T=0.5000 -> price=1.176222 (P1=0.835626, P2=0.801335)
+2026-05-13 13:15:19.756 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=90 T=0.5000 -> price=1.128305 (P1=0.832168, P2=0.797975)
+2026-05-13 13:15:19.756 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.002500
+2026-05-13 13:15:20.965 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:15:29.894 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:15:29.895 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 1.071184
+2026-05-13 13:15:29.898 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.002500
+2026-05-13 13:15:31.165 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:15:38.981 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:15:38.981 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 1.135360
+2026-05-13 13:15:38.985 | INFO     | __main__:run_single_config:188 |   40x200 T=0.50 K= 90 | SV: 1.0712 vs 1.1762 (-8.93%) | SVJ: 1.1354 vs 1.1283 (+0.63%) | 19.23s
+2026-05-13 13:15:39.006 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=95 T=0.5000 -> price=2.565317 (P1=0.743457, P2=0.698462)
+2026-05-13 13:15:39.037 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=95 T=0.5000 -> price=2.507706 (P1=0.740242, P2=0.695642)
+2026-05-13 13:15:39.038 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.002500
+2026-05-13 13:15:39.797 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:15:48.390 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:15:48.391 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 2.173581
+2026-05-13 13:15:48.393 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.002500
+2026-05-13 13:15:49.266 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:15:57.005 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:15:57.005 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 2.256574
+2026-05-13 13:15:57.008 | INFO     | __main__:run_single_config:188 |   40x200 T=0.50 K= 95 | SV: 2.1736 vs 2.5653 (-15.27%) | SVJ: 2.2566 vs 2.5077 (-10.01%) | 17.97s
+2026-05-13 13:15:57.028 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=100 T=0.5000 -> price=4.752499 (P1=0.624361, P2=0.570441)
+2026-05-13 13:15:57.057 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=100 T=0.5000 -> price=4.682384 (P1=0.622360, P2=0.569121)
+2026-05-13 13:15:57.058 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.002500
+2026-05-13 13:15:58.052 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:16:06.927 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:16:06.928 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 3.988243
+2026-05-13 13:16:06.932 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.002500
+2026-05-13 13:16:07.870 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:16:15.852 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:16:15.853 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 4.078980
+2026-05-13 13:16:15.856 | INFO     | __main__:run_single_config:188 |   40x200 T=0.50 K=100 | SV: 3.9882 vs 4.7525 (-16.08%) | SVJ: 4.0790 vs 4.6824 (-12.89%) | 18.80s
+2026-05-13 13:16:15.878 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=105 T=0.5000 -> price=7.788586 (P1=0.484538, P2=0.426366)
+2026-05-13 13:16:15.907 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=105 T=0.5000 -> price=7.706394 (P1=0.484606, P2=0.427227)
+2026-05-13 13:16:15.908 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.002500
+2026-05-13 13:16:16.934 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:16:25.855 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:16:25.856 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 6.648362
+2026-05-13 13:16:25.859 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.002500
+2026-05-13 13:16:26.737 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:16:34.828 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:16:34.829 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 6.731751
+2026-05-13 13:16:34.832 | INFO     | __main__:run_single_config:188 |   40x200 T=0.50 K=105 | SV: 6.6484 vs 7.7886 (-14.64%) | SVJ: 6.7318 vs 7.7064 (-12.65%) | 18.92s
+2026-05-13 13:16:34.852 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=110 T=0.5000 -> price=11.518234 (P1=0.338542, P2=0.283293)
+2026-05-13 13:16:34.883 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=110 T=0.5000 -> price=11.434142 (P1=0.340866, P2=0.286214)
+2026-05-13 13:16:34.884 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.002500
+2026-05-13 13:16:35.767 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:16:44.644 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:16:44.644 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 10.131271
+2026-05-13 13:16:44.648 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.002500
+2026-05-13 13:16:45.681 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:16:53.700 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:16:53.701 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 10.196055
+2026-05-13 13:16:53.701 | INFO     | __main__:run_single_config:188 |   40x200 T=0.50 K=110 | SV: 10.1313 vs 11.5182 (-12.04%) | SVJ: 10.1961 vs 11.4341 (-10.83%) | 18.82s
+2026-05-13 13:16:53.718 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=115 T=0.5000 -> price=15.621467 (P1=0.207151, P2=0.162255)
+2026-05-13 13:16:53.747 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=115 T=0.5000 -> price=15.554434 (P1=0.210933, P2=0.166185)
+2026-05-13 13:16:53.748 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.002500
+2026-05-13 13:16:54.651 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:17:03.600 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:17:03.600 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 14.260163
+2026-05-13 13:17:03.603 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.002500
+2026-05-13 13:17:04.416 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:17:12.432 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:17:12.433 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 14.303612
+2026-05-13 13:17:12.435 | INFO     | __main__:run_single_config:188 |   40x200 T=0.50 K=115 | SV: 14.2602 vs 15.6215 (-8.71%) | SVJ: 14.3036 vs 15.5544 (-8.04%) | 18.69s
+2026-05-13 13:17:12.448 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=85 T=1.0000 -> price=1.255588 (P1=0.864393, P2=0.820382)
+2026-05-13 13:17:12.475 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=85 T=1.0000 -> price=1.203727 (P1=0.860722, P2=0.816561)
+2026-05-13 13:17:12.476 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.005000
+2026-05-13 13:17:13.987 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:17:22.917 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:17:22.917 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 1.430487
+2026-05-13 13:17:22.920 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.005000
+2026-05-13 13:17:24.005 | INFO     | src.option_pricing:price_european_fast:221 | Transition tensors pre-computed: 40+1 exponentials
+2026-05-13 13:17:32.671 | DEBUG    | src.layer2_price:compute_initial_auxiliary_value:420 | Initial auxiliary: X_0=4.698504, S_0=100.0000, V_0=0.040000
+2026-05-13 13:17:32.671 | INFO     | src.option_pricing:price_european_fast:246 | Fast pricing result: 1.500648
+2026-05-13 13:17:32.674 | INFO     | __main__:run_single_config:188 |   40x200 T=1.00 K= 85 | SV: 1.4305 vs 1.2556 (+13.93%) | SVJ: 1.5006 vs 1.2037 (+24.67%) | 20.20s
+2026-05-13 13:17:32.695 | INFO     | src.heston_analytical:compute_heston_price:133 | Heston analytical: put S=100.0 K=90 T=1.0000 -> price=2.400541 (P1=0.808411, P2=0.753155)
+2026-05-13 13:17:32.736 | INFO     | src.svj_analytical:compute_svj_price:137 | SVJ analytical: put S=100.0 K=90 T=1.0000 -> price=2.337010 (P1=0.804279, P2=0.749152)
+2026-05-13 13:17:32.737 | INFO     | src.option_pricing:price_european_fast:214 | Fast pricing (tensor): 40x200, 200 steps, dt=0.005000
